@@ -2,7 +2,7 @@ import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js"; // Corrected import
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || `sk_test_51PdqpNRvC5ZxCc7ceugnEHRHPvo98Kqp5r0xcwmWG2JK3f8Yo4Rr7l8zLhS4eUxbVUBpz6rwZPORo8uE1rLtQZSn00fyVqF0jX`);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // Placing user order from frontend
 
