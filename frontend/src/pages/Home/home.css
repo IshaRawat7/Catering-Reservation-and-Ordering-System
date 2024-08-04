@@ -1,0 +1,32 @@
+
+.dropdown{
+    right:0;
+    z-index:1;
+}
+.home{
+    z-index: 1;
+}
+
+.profile:hover .dropdown{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    background-color:#fff2ef;
+    padding:15px 25px;
+    border-radius:3px;
+    border:1px solid tomato;
+    outline:1px solid white;
+    list-style: none;
+}
+
+.dropdown li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    cursor:pointer;
+}
+
+.dropdown li:hover{
+    color:tomato;
+     
+}

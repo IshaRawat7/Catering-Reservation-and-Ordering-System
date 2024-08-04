@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background:linear-gardient(rgb(0,0,0,0.2), rgba(0,0,0,0.2));
+background-image:url("./assets/catering.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+*{
+   scroll-behavior: smooth;
+}
