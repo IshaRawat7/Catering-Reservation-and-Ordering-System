@@ -39,10 +39,10 @@ const Footer = () => {
                 className="w-12 h-12"
               />
             </a>
-            <a href="#">
+            <a href="https://github.com/IshaRawat7">
               <img
                 src="src/assets/twitter.png"
-                alt="youtube"
+                alt="Github"
                 className="w-12 h-12"
               />
             </a>
@@ -53,7 +53,7 @@ const Footer = () => {
                 className="w-12 h-12"
               />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/isha-rawat-290717260/">
               <img
                 src="src/assets/linkedin.jpg"
                 alt="LinkedIn"
